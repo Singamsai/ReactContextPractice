@@ -1,12 +1,10 @@
-import React from 'react';
-import './App.css';
-import A from './comps/contextApi1/A';
-// import Parent from './comps/contextApi2/Parent';
+import React from "react";
+import "./App.css";
+// import A from './comps/contextApi1/A';
+import Mainpage from "./comps/contextApi3/Mainpage";
 
 function App() {
-  return (
-    <A/>
-  );
+  return <Mainpage />;
 }
 
 export default App;

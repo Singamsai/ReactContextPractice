@@ -1,0 +1,28 @@
+.nav{
+    padding: .5rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 35%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    gap:2rem;
+    font-size: 1.2rem;
+}
+@media(max-width: 600px){
+    .nav{
+        display: block;
+    }
+    .options{
+        display: flex;
+        justify-content: space-evenly;
+        gap:.5rem;
+        font-size: .5rem;
+    }
+  }
