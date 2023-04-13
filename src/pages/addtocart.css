@@ -1,0 +1,27 @@
+.cart{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 4rem;
+}
+.cartitems{
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 7px #aaaaaa;
+    align-items: center;
+}
+.cart img{
+    height: 64px;
+    width: 64px;
+    margin: 1rem 0;
+    }
+    .remove{
+        width: 60px;
+        font-size: .8rem;
+        height: 2rem;
+        padding:5px;
+    }
